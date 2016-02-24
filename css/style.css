@@ -43,11 +43,13 @@ p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 13px;
+    padding-top: 19px;
+    padding-bottom: 10px;
     color:white;
     font-family: cursive, sans-serif;
     font-weight: bold;
     text-align: justify;
+    vertical-align: middle;
 }
 
 
@@ -91,7 +93,7 @@ p {
 @media (min-width: 992px) {
     .red {
         width: 32%;
-        height: 220px;
+        height: 250px;
         float: left;
         margin: 5px;
         position: relative;
@@ -100,7 +102,7 @@ p {
     }
     .green {
         width:32%;
-        height: 220px;
+        height: 250px;
         float: left;
         margin: 5px;
         position: relative;
@@ -109,7 +111,7 @@ p {
     }
     .blue {
         width: 32%;
-        height: 220px;
+        height: 250px;
         float: left;
         margin: 5px;
         position: relative;
@@ -124,7 +126,7 @@ p {
     .red {
         float: left;
         width: 49%;
-        height: 220px;
+        height: 250px;
         margin-right: 5px;
         position: relative;
         left: 0.8%;
@@ -133,7 +135,7 @@ p {
     .green {
         float: left;
         width: 49%;
-        height: 220px;
+        height: 250px;
         position: relative;
         left: 0.8%;
     }
@@ -141,7 +143,7 @@ p {
     .blue {
         float: left;
         width: 98.5%;
-        height: 220px;
+        height: 250px;
         margin-top: 5px;
         position: relative;
         left: 0.8%;
@@ -152,11 +154,11 @@ p {
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 363px) and (max-width: 767px) {
     .red {
         float: left;
         width: 90%;
-        height: 220px;
+        height: 250px;
         margin: 15px 0;
         position: relative;
         left: 5%;
@@ -166,7 +168,7 @@ p {
     .green {
         float: left;
         width: 90%;
-        height: 220px;
+        height: 250px;
         margin: 15px 0;;
         position: relative;
         left: 5%;
@@ -175,10 +177,53 @@ p {
     .blue {
         float: left;
         width: 90%;
-        height: 220px;
+        height: 250px;
         margin: 15px 0;
         position: relative;
         left: 5%;
+    }
+    
+    p {
+        padding-bottom: 20px;
+        vertical-align: middle;
+ 
+    }
+
+}
+
+@media (max-width: 362px) {
+    .red {
+        float: left;
+        width: 90%;
+        height: 300px;
+        margin: 15px 0;
+        position: relative;
+        left: 5%;
+
+    }
+
+    .green {
+        float: left;
+        width: 90%;
+        height: 300px;
+        margin: 15px 0;;
+        position: relative;
+        left: 5%;
+    }
+
+    .blue {
+        float: left;
+        width: 90%;
+        height: 300px;
+        margin: 15px 0;
+        position: relative;
+        left: 5%;
+    }
+    
+    p {
+        padding-bottom: 20px;
+        vertical-align: middle;
+ 
     }
 
 }
